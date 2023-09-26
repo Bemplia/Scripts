@@ -25,6 +25,10 @@ ScriptsSection:NewButton("Pet Simulator X", "", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bemplia/Pet-simulator/main/script.lua", true))()
 end)
 
+ScriptsSection:NewButton("Build a boat", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bemplia/Build-a-boat/main/script.lua", true))()
+end)
+
 GuiSection:NewKeybind("Toggle GUI", "", Enum.KeyCode.L, function()
 	Library:ToggleUI()
 end)
